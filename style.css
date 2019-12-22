@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+.full {
+    height: 1600px;
+    width: 1000px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-top: 8px solid #D94464;
+}
+
+.header {
+    width: 960px;
+    margin: auto;
+    height: 635px
+}
+
+.head {
+    display: flex;
+
+
+}
+
+.dark {
+    max-width: width: 50%;
+    flex-basis: 50%;
+    padding-top: 20px
+}
+
+.dark h1 {
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.dark h1 span {
+    font-size: 42px;
+    margin-right: -10px
+}
+
+.dark p {
+    color: gray;
+
+}
+
+.head .media {
+    max-width: width: 50%;
+    flex-basis: 50%;
+    padding-top: 42px;
+
+
+
+}
+
+.media .social {
+    float: left
+}
+
+.social li {
+    float: left;
+    padding-right: 12px;
+    list-style-type: none;
+}
+
+
+.social li a {
+    text-decoration: none
+}
+
+.social li i {
+    color: white;
+    background-color: #FBB03B;
+    padding: 8px 8px 8px 8px;
+    border-radius: 50px;
+}
+
+.social li i:hover {
+    background-color: black;
+
+}
+
+.media .search {}
+
+input {
+    background-color: #D94464;
+    border-radius: 10px;
+    border: 1px solid;
+    width: 200px;
+    height: 25px;
+
+
+
+
+}
+
+.search i {
+    position: relative;
+    right: 33px;
+    background-color: black;
+    padding: 3px 2px 1px 3px;
+    border-radius: 20px;
+    top: 2px
+}
+
+.menu {
+
+    width: 960px;
+    margin: auto;
+    background: #191919;
+    height: 50px;
+    box-shadow: 2px 3px 3px #191919;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.menu li {
+    float: left;
+    list-style-type: none;
+
+
+
+    opacity: 0.9;
+    margin-top: 10px
+}
+
+.menu li a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    border-right: 1px solid gray;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    display: inline-block
+}
+
+.menu li a:hover {
+    color: red;
+    opacity: 0.9;
+}
+
+.menu li:last-child a {
+    border: none;
+
+}
+
+.menu ul li:first-child a {
+    color: red;
+    opacity: 0.9;
+}
+
+.menu li:hover {}
+
+.slid {
+    width: 960px;
+    height: 360px;
+    background-image: url(image/b3af23a9a9846fa17f7677109c44a1d7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: johir 12s infinite linear;
+    display: flex;
+    overflow: hidden
+}
+
+@keyframes johir {
+    0% {
+        background-image: url(image/Arctotis%20senecio%20vitalis%20agave%20phormium.jpg)
+    }
+
+    20% {
+        background-image: url(image/dark-delight-dutch-passion_1.jpg)
+    }
+
+    40% {
+        background-image: url(image/dutch_passion_dark_delight_1.jpg)
+    }
+
+    60% {
+        background-image: url(image/Iris_PCHybrid_maroon_close.jpg)
+    }
+
+    80% {
+        background-image: url(image/b3af23a9a9846fa17f7677109c44a1d7.jpg)
+    }
+
+}
+
+.slid .right_slider i {
+    background-color: black;
+    margin-left: 10px;
+    font-size: 32px;
+    border-radius: 50px;
+    padding: 12px 8px;
+    border: 1px solid #696969;
+    color: #696969;
+    cursor: pointer
+}
+
+.slid .right_slider {
+    margin-top: 180px
+}
+
+
+.slid .left {
+    margin-top: 180px;
+    margin-left: 825px
+}
+
+.slid .left i {
+    font-size: 30px;
+    border-radius: 50px;
+    padding: 12px 8px;
+    border: 1px solid #696969;
+    color: #696969;
+    background-color: black;
+    cursor: pointer
+}
+
+.caption {
+    height: 100px;
+    background-color: #0F0F0F
+}
+
+.caption h2 {
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 26px;
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+}
+
+.caption p {
+    font-family: 'Lato', sans-serif;
+    margin: 0px 20px;
+    text-align: center;
+    padding-bottom: 10px
+}
+
+
+
+
+/******Header Finish**********/
+/******Meader End**********/
+.meader {
+    background-color: #1B1B1B;
+    margin-top: 20px;
+    height: 940px
+}
+
+.mead {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    border-bottom: 5px solid #333333
+}
+
+.mead_one {
+    width: 310px;
+    flex-basis: 310px;
+    height: 500px;
+    overflow: hidden;
+    float: left;
+}
+
+
+.mead h1 {
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Work Sans', sans-serif;
+
+
+
+}
+
+.mead_one img {
+    width: 290px;
+    height: 140px;
+    margin-left: 15px;
+}
+
+.mead_one p {
+    text-align: justify;
+    padding: 10px 0px;
+    opacity: 0.8
+}
+
+.mead a {
+    text-decoration: none;
+    font-size: 24px;
+
+    color: red;
+    opacity: 0.8;
+    padding-left: 60px
+}
+
+/**=one=**/
+
+.mead_two {
+    width: 310px;
+    flex-basis: 310px;
+    margin-left: 15px;
+    opacity: 0.8
+}
+
+
+
+
+.mead_two .imag {
+    float: left;
+}
+
+.mead_two .imag img {
+    width: 64px;
+    height: 72px;
+    border-radius: 5px
+}
+
+.mead_two .service {
+    width: 310px;
+    overflow: hidden;
+    height: 77px;
+    padding-bottom: 5px
+}
+
+.mead_two .leka {
+    padding-left: 80px
+}
+
+.mead_two p {}
+
+.mead_two h2 {
+    padding-bottom: 5px;
+
+}
+
+
+
+
+.mead_three {
+    width: 310px;
+    flex-basis: 310px;
+    margin-left: 15px;
+    color: white;
+    opacity: 0.8
+}
+
+.mead_three .clint {}
+
+.mead_three .clint :first-child {}
+
+.mead_three .clint h2 {
+    text-align: center;
+    padding-bottom: 10px
+}
+
+.mead_three .clint span {
+    font-style: italic;
+}
+
+.mead_three .clint p {
+    padding-bottom: 5px
+}
+
+.mead_three .clint a {}
+
+.mid {
+    display: flex;
+    width: 960px;
+    margin: auto;
+    padding-bottom: 30px;
+    
+}
+
+.mid .lacus {
+    width: 225px;
+    flex-basis: 225px;
+    padding-top: 15px
+}
+
+.mid .lacus h2 {
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 26px
+}
+
+.mid .lacus p {
+    text-align: justify;
+    letter-spacing: 1px
+}
+
+.mid .project {
+    width: 225px;
+    flex-basis: 225px;
+    margin-left: 20px;
+    padding-top: 30px;
+
+
+}
+
+.mid .project img {
+    width: 225px;
+    height: 120px;
+    border-radius: 10px
+}
+
+.mid .project h2 {
+    color: red;
+    opacity: 0.8
+}
+
+.mid .project p {
+    padding-top: 3px
+}
+.finish{
+     background-color: #333333;
+    height: 220px;
+      
+}
+.contact {
+    display: flex;
+    width: 960px;
+    margin: auto;
+   
+   
+    
+}
+.contact h1{
+    font-size: 18px;
+    padding: 15px 5px;
+    font-family: 'Work Sans', sans-serif;
+     opacity: 1
+}
+
+.details {
+    width: 225px;
+    flex-basis: 225px;
+   
+}
+
+.details p .link {
+    width: 225px;
+    flex-basis: 225px;
+}
+.details span{
+    font-size: 18px;
+   
+}
+
+.link  {
+    margin-left: 20px;
+    width: 225px;
+    flex-basis: 225px;
+}
+.link h2 {
+    font-size: 20px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-bottom: 2px solid gray;
+}
+
+.blog {
+    width: 225px;
+    flex-basis: 225px;
+    margin-left: 20px
+}
+
+.blog h2 {
+    font-size: 20px;
+    
+}
+
+.blog p {font-size: 16px;
+}
+.blog a{
+    display: block;
+    color: red;
+    text-decoration: none;
+   
+    margin-left: 110px;
+    font-size: 20px
+}
+
+.news {
+    width: 225px;
+    flex-basis: 225px;
+    margin-left: 20px
+}
+.news input{
+    width: 200px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    height: 32px;
+    background-color: #2C2C2C;
+    
+}
+
+.news input:last-child {
+    width: 80px;
+    height: 38px;
+    background-color: #201F1D;
+    color: red;
+    border: 1px solid #2C2C2C;
+    cursor: pointer;
+    margin-top: 6px
+    
+    
+}
+.news ::placeholder{
+    padding-left: 10px;
+     
+}
+
